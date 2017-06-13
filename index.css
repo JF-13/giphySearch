@@ -1,0 +1,28 @@
+body {
+  background-image: url('/assets/dark-triangles.png');
+}
+
+.gitRating {
+  color: white;
+}
+
+.gif {
+  height: 200px;
+  width: 33.3%;
+}
+
+.heading {
+  font-family: 'Vibur', cursive;
+  color: white;
+  font-size: 4.5em;
+}
+
+.top-margin{
+  margin-top: 39px;
+}
+
+.searchButtons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
