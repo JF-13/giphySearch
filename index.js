@@ -18,7 +18,7 @@ $('#getInput').on('click', function(event) {
   $('.gifData').html('');
 
   var input = document.getElementById('textInput').value;
-  var url = ('http://api.giphy.com/v1/gifs/search?q=' + input + '&api_key=dc6zaTOxFJmzC');
+  var url = ('https://api.giphy.com/v1/gifs/search?q=' + input + '&api_key=dc6zaTOxFJmzC');
 
   makingButtons(input);
 
@@ -65,7 +65,7 @@ $('.newButtons').on('click', function(e) {
   $('.gifData').html('');
 
   var input = document.getElementById('textInput').value;
-  var url = ('http://api.giphy.com/v1/gifs/search?q=' + idClicked + '&limit=11&api_key=dc6zaTOxFJmzC');
+  var url = ('https://api.giphy.com/v1/gifs/search?q=' + idClicked + '&limit=11&api_key=dc6zaTOxFJmzC');
 
   $.ajax({
     url: url,
