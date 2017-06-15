@@ -2,7 +2,7 @@ var stillLinks = [];
 var playingLinks = [];
 var ratings = [];
 var buttons = [];
-var presetButtons = ['javascript', 'css', 'html', 'sql', 'fortran', 'swift', 'java', 'C++', 'C#', 'Python', 'Perl', 'PHP', 'ruby', 'basic'];
+var presetButtons = ['javascript', 'css', 'html', 'sql', 'fortran', 'swift', 'java', 'C++', 'C Sharp', 'Python', 'Perl', 'PHP', 'ruby', 'basic'];
 
 $(document).ready(function() {
   for (var i = 0; i < presetButtons.length; i++) {
